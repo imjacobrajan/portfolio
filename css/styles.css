@@ -346,4 +346,8 @@ body {
     height: 70px;
     margin-bottom: 20px;
   }
+
+  .skill h6 {
+    font-size: 12px;
+  }
 }
