@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMSpace</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <header class=""></header>
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bolder" href="#"
+          ><img src="images/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_me">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#skillset"
+                id=""
+                role="button"
+                data-bs-toggle=""
+                aria-expanded="false"
+              >
+                Skills
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact_me"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                href="#"
+                class="btn btn-outline-secondary shadow-sm d-sm d-block"
+              >
+                Hire Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero_container">
+      <section class="hero">
+        <div
+          class="d-flex flex-column align-items-center justify-content-end hero_text"
+          data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          <span class="title_des">Hi, Iam</span>
+          <div class="title_text">JACOB SAMUEL</div>
+          <h4 class="role">Frontend Developer</h4>
+          <div class="title_button">
+            <a href="" class="btn btn-outline-secondary cv_button"
+              >Download CV</a
+            >
+
+            <a href="" class="btn contact_button">Contact Me</a>
+          </div>
+          <i class="fa-solid fa-chevron-down pb-5"></i>
+        </div>
+      </section>
+    </div>
+
+    <section class="about mt-5" id="about_me">
+      <div class="container">
+        <div class="row mt-5">
+          <div
+            class="col-lg-6"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+            data-aos-duration="400"
+          >
+            <img src="images/profile.png" class="img-fluid" alt="..." />
+          </div>
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+            data-aos-duration="400"
+            data-aos-offset="200"
+          >
+            <span class="profile_des">My Intro</span>
+            <div class="profile_text">About Me</div>
+            <h4 class="profile_about text-justify">
+              Passionate front-end web developer on a mission to craft digital
+              worlds that not only look beautiful but also function flawlessly.
+              With a background in digital marketing, I bring a unique
+              perspective to web development, blending creativity and
+              data-driven insights to create websites that captivate, engage,
+              and convert.
+            </h4>
+            <div class="row mt-4 name">
+              <div class="col-auto"><i class="fa-solid fa-user"></i></div>
+              <div class="col-2 fw-bold">Name</div>
+              <div class="col-1">:</div>
+              <div class="col name_value">Jacob Samuel</div>
+            </div>
+            <div class="row mt-2 name">
+              <div class="col-auto"><i class="fa-solid fa-phone-flip"></i></div>
+              <div class="col-2 fw-bold">Phone</div>
+              <div class="col-1">:</div>
+              <div class="col name_value">63815-19592</div>
+            </div>
+            <div class="row mt-2 name">
+              <div class="col-auto"><i class="fa-solid fa-envelope"></i></div>
+              <div class="col-2 fw-bold">Email</div>
+              <div class="col-1">:</div>
+              <div class="col name_value">imjacobsamuel@gmail.com</div>
+            </div>
+            <div class="interest_title mt-4">My Interests</div>
+            <div class="row mt-2 interest_icon">
+              <div class="col-6 col-md-3 interest">
+                <i class="fa-solid fa-headphones"></i>Music
+              </div>
+              <div class="col-6 col-md-3 interest">
+                <i class="fa-solid fa-route"></i>Travel
+              </div>
+              <div class="col-6 col-md-3 interest">
+                <i class="fa-solid fa-heart-pulse"></i>Sports
+              </div>
+              <div class="col-6 col-md-3 interest">
+                <i class="fa-solid fa-camera"></i>Photo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skillset">
+      <div class="container">
+        <div class="skill_title">
+          <span class="skill_des">Why Choose Me</span>
+          <div class="skill_text">My Expertise Area</div>
+          <div class="row skill_row">
+            <div class="col-md-5 skill">
+              <img src="images/html-5.png" alt="" class="skill_logo" />
+              <h6>HTML</h6>
+            </div>
+
+            <div class="skill col-lg-2">
+              <img src="images/css.png" alt="" class="skill_logo" />
+              <h6>CSS</h6>
+            </div>
+
+            <div class="skill col-lg-2">
+              <img src="images/javascript.png" alt="" class="skill_logo" />
+              <h6>JAVASCRIPT</h6>
+            </div>
+
+            <div class="skill col-lg-2">
+              <img src="images/bootstrap.png" alt="" class="skill_logo" />
+              <h6>BOOTSTRAP</h6>
+            </div>
+
+            <div class="skill col-lg-2">
+              <img src="images/jquery.png" alt="" class="skill_logo" />
+              <h6>JQUERY</h6>
+            </div>
+
+            <div class="skill col-lg-2">
+              <img src="images/sass.png" alt="" class="skill_logo" />
+              <h6>SASS</h6>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/react.png" alt="" class="skill_logo" />
+              <h6>REACT</h6>
+            </div>
+
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/node.png" alt="" class="skill_logo" />
+              <h6>NODE</h6>
+            </div>
+
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/mongo.png" alt="" class="skill_logo" />
+              <h6>MONGO DB</h6>
+            </div>
+
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/git.png" alt="" class="skill_logo" />
+              <h6>GITHUB</h6>
+            </div>
+
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/photoshop.png" alt="" class="skill_logo" />
+              <h6>PHOTOSHOP</h6>
+            </div>
+
+            <div class="skill shadow-lg col-lg-2">
+              <img src="images/illustrator.png" alt="" class="skill_logo" />
+              <h6>ILLUSTRATOR</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact_me">
+      <div class="container">
+        <span class="profile_des">Contact Me</span>
+        <div class="profile_text">Get in Touch</div>
+
+        <div class="row contact_row">
+          <div class="col-12 col-md-4">
+            <div class="contact_icon">
+              <i class="fa-solid fa-phone-flip"></i>
+            </div>
+            <h4>Phone</h4>
+            <h6>63815-19592</h6>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="contact_icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h4>Email</h4>
+            <h6>imjacobsamuel@gmail.com</h6>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="contact_icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h4>Location</h4>
+            <h6>Tirunelveli</h6>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col">
+            <div>
+              <input type="text" />
+              <input type="email" name="" id="" />
+            </div>
+            <div><input type="text" /></div>
+            <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+          </div>
+          <div class="col"></div>
+        </div> -->
+      </div>
+    </section>
+
+    <footer class="footer d-flex flex-column align-items-center p-5">
+      <img src="images/logo.png" alt="" />
+      <p class="footer_text">
+        Let's connect and collaborate! Whether you're looking to revamp your
+        website, brainstorm innovative ideas, or just geek out over the latest
+        CSS tricks, I'm always up for a conversation. Together, let's make the
+        web a more exciting and user-centric place.
+      </p>
+      <div class="footer_social d-flex">
+        <div class="">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="">
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="">
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
