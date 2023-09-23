@@ -77,6 +77,9 @@
               <a
                 href="#"
                 class="btn btn-outline-secondary shadow-sm d-sm d-block"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
               >
                 Hire Me</a
               >
@@ -254,7 +257,7 @@
             <div class="contact_icon">
               <i class="fa-solid fa-phone-flip"></i>
             </div>
-            <h4>Phone</h4>
+            <h4 class="fw-bold">Phone</h4>
             <h6>63815-19592</h6>
           </div>
 
@@ -262,7 +265,7 @@
             <div class="contact_icon">
               <i class="fa-solid fa-envelope"></i>
             </div>
-            <h4>Email</h4>
+            <h4 class="fw-bold">Email</h4>
             <h6>imjacobsamuel@gmail.com</h6>
           </div>
 
@@ -270,23 +273,66 @@
             <div class="contact_icon">
               <i class="fa-solid fa-location-dot"></i>
             </div>
-            <h4>Location</h4>
+            <h4 class="fw-bold">Location</h4>
             <h6>Tirunelveli</h6>
           </div>
         </div>
-        <!-- <div class="row">
-          <div class="col">
-            <div>
-              <input type="text" />
-              <input type="email" name="" id="" />
-            </div>
-            <div><input type="text" /></div>
-            <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-6">
+            <img
+              src="images/contact.png"
+              class="img-fluid contact_image"
+              alt="..."
+            />
           </div>
-          <div class="col"></div>
-        </div> -->
+          <div class="col-12 col-md-6 form_container">
+            <div class="form_1">
+              <input type="text" placeholder="Name" />
+              <input type="email" name="" id="" placeholder="Email" />
+            </div>
+            <div class="form_2">
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="form_3">
+              <textarea
+                name=""
+                id=""
+                cols="20"
+                rows="7"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="images/ty.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer d-flex flex-column align-items-center p-5">
       <img src="images/logo.png" alt="" />

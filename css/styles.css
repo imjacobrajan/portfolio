@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -8,6 +8,7 @@
 
 body {
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-brand {
@@ -305,6 +306,45 @@ body {
   color: white;
 }
 
+.contact_image {
+  width: 70%;
+}
+
+.form_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.form_1 input {
+  width: 40%;
+  margin: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form_2 input {
+  width: 84%;
+  padding: 8px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form_3 textarea {
+  width: 84%;
+  padding: 8px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form_container {
+  background-color: #252549;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
 @keyframes bounce {
   0%,
   20%,
@@ -331,6 +371,10 @@ body {
   }
   .footer_text {
     width: 70%;
+  }
+
+  .contact_image {
+    width: 100%;
   }
 }
 
